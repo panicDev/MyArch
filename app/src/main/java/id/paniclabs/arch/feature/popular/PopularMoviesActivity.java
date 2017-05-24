@@ -57,6 +57,8 @@ public class PopularMoviesActivity extends LifecycleActivity implements Toolbar.
     @BindView(R.id.progressbar)
     ProgressBar progressBar;
 
+
+
     private PopularMoviesViewModel viewModel;
     private GridLayoutManager gridLayoutManager;
     private PopularMoviesRecyclerViewAdapter movieAdapter;
